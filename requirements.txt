@@ -1,0 +1,4 @@
+fastmcp[apps]
+fastapi
+uvicorn[standard]
+jinja2
