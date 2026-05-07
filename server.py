@@ -10,7 +10,7 @@ mcp = FastMCP(name="WorldNewsAPI")
 
 # Initialize the API client
 # Users should set WORLD_NEWS_API_KEY environment variable
-api_key = os.getenv("WORLD_NEWS_API_KEY", "")
+api_key = os.getenv("WORLD_NEWS_API_KEY", "48de9d6742cc4feca80b33950763392f")
 configuration = Configuration()
 configuration.api_key['api-key'] = api_key
 api_instance = NewsApi(ApiClient(configuration))
